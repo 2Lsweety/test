@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>作业</title>
+</head>
+<body>
+    <script>
+        // 九九乘法表中，i代表行数，j的取值小于等于当前的行数
+         
+        for( var i = 1; i <= 9; i++ ){
+            // console.log(i);
+            var str = ''; 
+            for( var j = 1; j <= i; j++){
+                // console.log(j);
+                str += (j + '*' + i + '=' + i * j + ';'); 
+            }   
+            console.log(str);    
+            document.write(str + '<br>');     
+        };
+
+    </script>
+    
+</body>
+</html>
